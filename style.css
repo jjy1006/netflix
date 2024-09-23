@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    font-family: "myfontstyle";
+}
+
+h1 {
+    color : red;
+    font-size: 6em;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+   
+}
+
+button {
+    width: 120px; height: 40px; background-color: red;
+    color:white; font-size: 16; font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    
+}
+
+
+
+h2 {
+    color : white;
+    font-size: 3em;
+    position: absolute;
+    top: 220px;
+    left: 60px;
+}
+
+section {
+    height: 100vh;
+    background: url(netflix.jpg);
+}
+
+section:before{
+    content:'';    
+    background: linear-gradient(to right, black, transparent);
+    position: absolute;
+    left:0;
+    height: 100%;
+    width:50%;
+}

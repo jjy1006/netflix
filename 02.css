@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 32px; 
+    color: white; border-bottom: solid white;
+
+
+
+}
+h2 {
+    color : red;
+    font-size: 6em;
+    position: absolute;
+    top: 50px;
+    left: 770px;
+    
+    
+    
+}
+
+form {
+    font-size: 28px;
+    color: white; 
+}
+
+section {
+    width: 410px; position: absolute; left: 50%; top: 50%;
+    transform: translate( -50%,-50%);
+    border-style: solid; border-width: 1px; border-color: white;
+    text-indent: 16;
+    
+    color : white;
+}
+
+.don {
+    width: 410px; height: 60px; background-color: red;
+    color:white; font-size: 16;
+    
+}
+
+button {
+    width: 410px; height: 60px; background-color: red;
+    color:white; font-size: 16;
+
+}
